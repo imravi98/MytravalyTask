@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+	      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+	      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+</head>
+<style>
+#myDIV{
+display:none;
+}
+button{
+margin-top:15px;
+background-color:blue;
+}
+</style>
+<body>
+
+<center><button onclick="myFunction()"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTPh_iTRNTNHQ_JV9Hi7JBEmfUHoGPfU2AULAW8D9Prjb85xWE5&usqp=CAU"
+  height="250" width="250"></button><center>
+  </br></br></br>
+<center><div id="myDIV" >
+	<a href="fb.html"><abbr title="Facebook"><i class= "fab fa-facebook fa-2x text-primary mx-3"></i></abbr></a>
+	<a href ="twitter.html"><abbr title="Twitter"><i class="fab fa-twitter fa-2x text-danger mx-3"></i></abbr></a>
+	<a href = "whats.html"><abbr title="Whatsapp"><i class="fab fa-whatsapp fa-2x text-success mx-3"></i></abbr></a>
+	
+</div></center>  
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
